@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+nav{
+    background-color: rgb(11, 11, 11);
+    width: 100%;
+    height: 100px;
+
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+}
+.logo{
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+.menu a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.menu a{
+    background-color:  rgb(23, 136, 13);
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.menu a:hover{
+    border: 1px solid rgb(23, 136, 13);
+    background: transparent;
+    transition: 0.4s;
+}
+.signup a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: rgb(23, 136, 13);
+}
+.signup a:hover{
+    border: 1px solid rgb(23, 136, 13);
+    background: transparent;
+    transition: 0.4s;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 3.5em;
+}
+.h-text a{
+    text-decoration: none;
+    background: rgb(23, 136, 13);
+    border-radius: 8px;
+    padding: 5px 20px;
+    color: #fff;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.h-text a:hover{
+    border: 1px solid rgb(23, 136, 13);
+    background: transparent;
+}
+.info-text {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.info-text ul {
+    margin-top: 10px;
+    padding-left: 20px;}
